@@ -10,5 +10,5 @@ description = ""
 showFullContent = true
 readingTime = false
 hideComments = false
-framed = true
+framed = false
 +++

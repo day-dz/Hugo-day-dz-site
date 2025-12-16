@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = "2025-12-13"
+framed = false
 +++
 # Hello!
 
@@ -16,4 +17,8 @@ I have worked within IT since 2021 and within:
 Over the past year I have been working on trying to learn more general security principles as my knowledge was very identity focused coming into the job. 
 
 
-As a side project I'll use this site to showcase some of the things I make and to highlight topics that I find interesting or important.
+As a side project I'll use this site to showcase some of the things I make and to highlight topics that I find interesting or important. I've included somee of my links below.
+
+
+
+[Github](https://github.com/day-dz) | [Discord](https://discord.com/users/136564041114976256)

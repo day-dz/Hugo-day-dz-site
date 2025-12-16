@@ -31,24 +31,6 @@
 <link rel="shortcut icon" href="{{"favicon.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary" />
-{{ if (isset $.Site.Params "twitter") }}
-  {{ if (isset $.Site.Params.Twitter "site") }}
-    <meta name="twitter:site" content="{{ $.Site.Params.Twitter.site }}" />
-  {{ end }}
-    <meta name="twitter:creator" content="{{ if .IsHome }}{{ $.Site.Params.Twitter.creator }}{{ else if isset .Params "authortwitter" }}{{ .Params.authorTwitter }}{{ else }}{{ .Params.Author }}{{ end }}" />
-{{ end }}
-
-<!-- GitHub Card -->
-<meta name="GitHub:card" content="summary" />
-{{ if (isset $.Site.Params "GitHub") }}
-  {{ if (isset $.Site.Params.GitHub "site") }}
-    <meta name="GitHub:site" content="{{ $.Site.Params.Github.site }}" />
-  {{ end }}
-    <meta name="GitHub:creator" content="{{ if .IsHome }}{{ $.Site.Params.GitHub.creator }}{{ else if isset .Params "authorGitHub" }}{{ .Params.authorGitHub }}{{ else }}{{ .Params.Author }}{{ end }}" />
-{{ end }}
-
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
